@@ -4,7 +4,7 @@
 ## Poem import for none-original poem
 1. Get access token from /api/v1/user/login
 ```cmd
-curl --location --request POST 'https://poemwiki-dev.com/api/v1/user/login' \
+curl --location --request POST 'https://poemwiki.org/api/v1/user/login' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
 --data-raw '{"email": "****@*.com", "password": "1234****"}'
@@ -12,7 +12,7 @@ curl --location --request POST 'https://poemwiki-dev.com/api/v1/user/login' \
 
 2. Post poem data to api/v1/poem/import
 ```cmd
-curl --location --request POST 'https://poemwiki-dev.com/api/v1/poem/import' \
+curl --location --request POST 'https://poemwiki.org/api/v1/poem/import' \
 --header 'Accept: application/json' \
 --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGc......' \
 --header 'Content-Type: application/json' \
@@ -32,4 +32,4 @@ curl --location --request POST 'https://poemwiki-dev.com/api/v1/poem/import' \
 }'
 ```
 
-3. Check recent contributions at https://poemwiki-dev.com/contribution
+3. Check recent contributions at https://poemwiki.org/contribution

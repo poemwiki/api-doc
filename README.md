@@ -21,12 +21,14 @@ curl --location --request POST 'https://poemwiki.org/api/v1/poem/import' \
         {
             "title": "红花草",
             "poet": "阿斐",
-            "poem": "冬天了，广州并不冷\n在铸山村，我的家乡"
+            "poem": "冬天了，广州并不冷\n在铸山村，我的家乡",
+            "language_id": 1
         },
         {
             "title": "和谁对饮",
             "poet": "阿斐",
-            "poem": "是一个陌生人\n还是老相识\n已不重要"
+            "poem": "是一个陌生人\n还是老相识\n已不重要",
+            "language_id": 1
         }
     ]
 }'
